@@ -8,6 +8,9 @@ public class App {
 	public static void main(String[] args) {
 		
 		IServicePort service = new ServiceImpl();
-		service.addPermission();
+		//service.addPermission();
+
+		ServiceImpl subService = new ServiceImpl();
+		subService.getIntegerList();
 	}
 }

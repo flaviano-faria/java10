@@ -22,5 +22,10 @@ public class ServiceImpl implements IServicePort{
 		
 	}
 
+	public void getIntegerList(){
+		User user = new User();
+		user.printList();
+	}
+
 
 }
