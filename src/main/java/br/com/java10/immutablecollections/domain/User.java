@@ -27,4 +27,12 @@ public class User {
 		var list = List.of(1, 2, 3, 4, 5);
         list.stream().forEach(e->System.out.println(e+1));
     }
+
+	public void printCopiedList(){
+		Permission read = new Read();
+		var list = List.of(1, 2, 3, 4, 5);
+		var copiedList = List.copyOf(list);
+		copiedList.add(2);
+		copiedList.stream().forEach(e->System.out.println(e+1));
+	}
 }

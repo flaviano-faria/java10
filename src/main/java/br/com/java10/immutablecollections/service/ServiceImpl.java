@@ -27,5 +27,10 @@ public class ServiceImpl implements IServicePort{
 		user.printList();
 	}
 
+	public void getCopiedList(){
+		User user = new User();
+		user.printCopiedList();
+	}
+
 
 }
