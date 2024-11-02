@@ -35,4 +35,9 @@ public class User {
 		copiedList.add(2);
 		copiedList.stream().forEach(e->System.out.println(e+1));
 	}
+
+	public List getNullPermission(){
+		return null;
+	}
+
 }

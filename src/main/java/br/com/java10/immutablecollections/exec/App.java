@@ -5,7 +5,7 @@ import br.com.java10.immutablecollections.service.ServiceImpl;
 
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		IServicePort service = new ServiceImpl();
 		//service.addPermission();
@@ -14,5 +14,7 @@ public class App {
 		subService.getIntegerList();
 
 		//subService.getCopiedList();
+		                         	
+		//subService.getNullPermission();
 	}
 }
